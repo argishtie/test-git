@@ -7,6 +7,7 @@ const hostname = '127.0.0.1';
 
 const server = http.createServer(async (req, res) => {
   try {
+    console.log(1);
     res.statusCode = 200;
     res.end("Hello world!");
   } catch (e) {
